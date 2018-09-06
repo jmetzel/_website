@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 23 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About JME</title>
+      <link>/about/</link>
+      <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Mein Name ist Julian Etzel, ich bin Diplom-Psychologe und arbeite als wissenschaftlicher Mitarbeiter am Leibniz Institut für die Pädagogik der Naturwissesnschaften und Mathematik IPN in der Abteilung Pädagogisch-Psychologische Methodenlehre. Meine Forschungsinteressen umfassen berufliche Interessen, Person-Umwelt Kongruenz und Persönlichkeitsprofile.
+Auf dieser Website schreibe ich in unregelmäßigen Abständen zu folgende Themen:
+ Probleme und Lösungen bei der deskriptiven und inferenzstatistischen Auswertung von (Forschungs)daten, inbesondere mit R Tutorials und hilfreiche Funktionen für die Datenanalyse mit R Gedanken über die politische und gesellschaftliche Weltlage Musik  </description>
+    </item>
+    
+  </channel>
+</rss>
