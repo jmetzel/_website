@@ -4,7 +4,7 @@ title: About Me
 
 My name ist Julian M. Etzel, I am a psychologist and researcher at the Leibniz Institute for Science and Mathematics Education, [IPN](http://www.ipn.uni-kiel.de/), in Kiel, Germany. I am part of the [Department of Educational Measurement](https://www.ipn.uni-kiel.de/en/the-ipn/departments/research-methodology). My research interests are *vocational interests*, *person-environment fit*, and *personality profiles*. 
 
-Since the earliest days of my studies, I am fascinated by and strongly interested in quantitative research methods and data analysis in psychology and the social sciences in general. Due to the inherent sophistication of these methods, I spent many hours trying to understand how to get from raw data to the results of, for example, *t*-tests, analysis of variance (ANOVA), regressions, and structural equation models (SEMs) and on how to interpret these results correctly. 
+Since the earliest days of my studies, I am fascinated by and strongly interested in quantitative research methods and data analysis in psychology and the social sciences in general. Due to the inherent sophistication of these methods, I have spent many hours (and will spend many more in the future) trying to understand how to get from raw data to data we can actually work with and, finally, to the results of statistical methods like *t*-tests, analysis of variance (ANOVA), linear and logistic regression models, structural equation models (SEMs) and on how to interpret these results correctly.  
 
 On this website, I occassionally write about:
  

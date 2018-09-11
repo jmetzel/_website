@@ -11,7 +11,7 @@ tags:
 
 Every blog needs a first entry. This is mine. 
 
-From time to time, I will share links to great essays that have influenced me in one way or another. I will begin with William Davies' spot on analysis of the [standing of statistics in today's society](https://www.theguardian.com/politics/2017/jan/19/crisis-of-statistics-big-data-democracy), published 2017 in the .
+From time to time, I will share links to great essays that have influenced me in one way or another. I will begin with William Davies' spot on analysis of the [standing of statistics in today's society](https://www.theguardian.com/politics/2017/jan/19/crisis-of-statistics-big-data-democracy), published in 2017 in the Guardian's ['The long read' ](https://www.theguardian.com/news/series/the-long-read) series.
 
 Although the essay has been written in 2017, I imagine that -- unfortunately -- it will be an important source for years to come. Evidently, a crucial task for scientists and data analysts in the next years will be to develop strategies for more transparency and better outreach to the general population. 
 

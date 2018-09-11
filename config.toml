@@ -1,6 +1,6 @@
 baseurl = "/"
-languageCode = "de"
-title = ""
+languageCode = "en-us"
+title = "codicillus"
 theme = "hugo-ivy"
 googleAnalytics = ""
 disqusShortname = "jmetzel"
