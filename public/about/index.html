@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>About JME - </title>
-    <meta property="og:title" content="About JME - ">
+    <title>About Me - </title>
+    <meta property="og:title" content="About Me - ">
     
     <meta name="twitter:card" content="summary">
 
@@ -15,8 +15,8 @@
 
     
       
-      <meta property="description" content="Mein Name ist Julian Etzel, ich bin Diplom-Psychologe und arbeite als wissenschaftlicher Mitarbeiter am Leibniz Institut für die Pädagogik der Naturwissesnschaften und Mathematik IPN in der Abteilung &amp;hellip;">
-      <meta property="og:description" content="Mein Name ist Julian Etzel, ich bin Diplom-Psychologe und arbeite als wissenschaftlicher Mitarbeiter am Leibniz Institut für die Pädagogik der Naturwissesnschaften und Mathematik IPN in der Abteilung &amp;hellip;">
+      <meta property="description" content="My name ist Julian M. Etzel, I am a psychologist and researcher at the Leibniz Institute for Science and Mathematics Education, IPN, in Kiel, Germany. I am part of the Department of Educational &amp;hellip;">
+      <meta property="og:description" content="My name ist Julian M. Etzel, I am a psychologist and researcher at the Leibniz Institute for Science and Mathematics Education, IPN, in Kiel, Germany. I am part of the Department of Educational &amp;hellip;">
       
     
 
@@ -39,7 +39,7 @@
     <header class="masthead">
       <h1><a href="/"></a></h1>
 
-<p class="tagline">Thoughts on Stats, Psychology and Society</p>
+<p class="tagline">Thoughts on Data Analysis, Psychology and Society</p>
 
       <nav class="menu">
   <input id="menu-check" type="checkbox" />
@@ -55,6 +55,8 @@
   
   <li class="active"><a href="/about/">About</a></li>
   
+  <li><a href="/tutorials/">Tutorials</a></li>
+  
   <li><a href="/categories/">Categories</a></li>
   
   <li><a href="/tags/">Tags</a></li>
@@ -68,10 +70,10 @@
     <article class="main">
       <header class="title">
       
-<h1>About JME</h1>
+<h1>About Me</h1>
 
-<h3>Julian M. Etzel
-  /  2018-08-23</h3>
+<h3>
+</h3>
 <hr>
 
 
@@ -79,38 +81,86 @@
 
 
 
-<p>Mein Name ist Julian Etzel, ich bin Diplom-Psychologe und arbeite als wissenschaftlicher Mitarbeiter am Leibniz Institut für die Pädagogik der Naturwissesnschaften und Mathematik <a href="http://www.ipn.uni-kiel.de/">IPN</a> in der Abteilung Pädagogisch-Psychologische Methodenlehre. Meine Forschungsinteressen umfassen <em>berufliche Interessen</em>, <em>Person-Umwelt Kongruenz</em> und <em>Persönlichkeitsprofile</em>.</p>
+<p>My name ist Julian M. Etzel, I am a psychologist and researcher at the Leibniz Institute for Science and Mathematics Education, <a href="http://www.ipn.uni-kiel.de/">IPN</a>, in Kiel, Germany. I am part of the <a href="https://www.ipn.uni-kiel.de/en/the-ipn/departments/research-methodology">Department of Educational Measurement</a>. My research interests are <em>vocational interests</em>, <em>person-environment fit</em>, and <em>personality profiles</em>.</p>
 
-<p>Auf dieser Website schreibe ich in unregelmäßigen Abständen zu folgende Themen:</p>
+<p>Since the earliest days of my studies, I am fascinated by and strongly interested in quantitative research methods and data analysis in psychology and the social sciences in general. Due to the inherent sophistication of these methods, I spent many hours trying to understand how to get from raw data to the results of, for example, <em>t</em>-tests, analysis of variance (ANOVA), regressions, and structural equation models (SEMs) and on how to interpret these results correctly.</p>
+
+<p>On this website, I occassionally write about:</p>
 
 <ul>
-<li>Probleme und Lösungen bei der deskriptiven und inferenzstatistischen Auswertung von (Forschungs)daten, inbesondere mit <a href="http://www.cran.org/">R</a></li>
-<li>Tutorials und hilfreiche Funktionen für die Datenanalyse mit <a href="http://www.cran.org/">R</a></li>
-<li>Gedanken über die politische und gesellschaftliche Weltlage</li>
-<li>Musik</li>
+<li>Tutorials for common data analytic problems</li>
+<li>Problems and solutions of non-standard data analysis tasks, especially with <a href="https://cran.r-project.org">R</a></li>
+<li>Functions that make you life easier</li>
 </ul>
+
+<p>Everything expressed on this website reflects my personal opinions, ideas, and thoughts. Tutorials and code examples are created to the best of my knowledge. Although I check everything very carefully, I cannot guarantee for the unquestionable correctness of my examples. Naturally, I do not claim that my way of solving data analytical problems is:</p>
+
+<ul>
+<li>the <strong>only</strong> way to solve a problem</li>
+<li>the <strong>fastest</strong> way to solve a problem</li>
+<li>the <strong>best</strong> way to solve a problem</li>
+<li>the <strong>most elegant</strong> way to solve a problem</li>
+</ul>
+
+<p>Mistakes are human and admitting mistakes is, in my humble opinion, a sign of strength, not of weakness. So if you ever come across something that is just plain wrong, or if you want to share your own ways of solving a particualr problem, feel free to contact me via the social media channels presented below.</p>
 
 
   <footer>
   
 
 
+<section class="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+    this.page.url = "https:\/\/jme.netlify.com" + location.pathname;
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var disqus_js = '//jmetzel.disqus.com/embed.js';
+    var d = document, s = d.createElement('script');
+    s.src = disqus_js; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    var b = false, l = function() {
+      if (b) return;
+      (d.head || d.body).appendChild(s); b = true;
+    }
+    
+    if (location.hash.match(/^#comment/)) return(l());
+    var t = d.getElementById('disqus_thread');
+    var c = function() {
+      if (b) return;
+      var rect = t.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom >= 0) l();
+    };
+    window.addEventListener('load', c);
+    d.addEventListener('scroll', c);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
 
 
 <script src="//yihui.name/js/math-code.js"></script>
 <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-<script async src="//yihui.name/js/center-img.js"></script>
-
   
 
   
   <hr>
-  <div class="copyright">&copy; <a href="https://www.ipn.uni-kiel.de">Julian M. Etzel</a> 2018 | <a href="https://github.com/jmetzel">Github</a> | <a href="https://twitter.com/julianetzel">Twitter</a></div>
+  <div class="copyright">&copy; <a href="jme.netlify.com">Julian M. Etzel</a> 2018  <br> <a href="https://researchgate.net">Research Gate</a> | <a href="https://twitter.com/julianetzel">Twitter</a> | <a href="https://github.com/jmetzel">GitHub</a></div>
   
   </footer>
   </article>
   
   </body>
 </html>
+
 

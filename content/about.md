@@ -1,15 +1,22 @@
 ---
-title: About JME
-author: Julian M. Etzel
-date: '2018-08-23'
+title: About Me
 ---
 
-Mein Name ist Julian Etzel, ich bin Diplom-Psychologe und arbeite als wissenschaftlicher Mitarbeiter am Leibniz Institut für die Pädagogik der Naturwissesnschaften und Mathematik [IPN](http://www.ipn.uni-kiel.de/) in der Abteilung Pädagogisch-Psychologische Methodenlehre. Meine Forschungsinteressen umfassen *berufliche Interessen*, *Person-Umwelt Kongruenz* und *Persönlichkeitsprofile*. 
+My name ist Julian M. Etzel, I am a psychologist and researcher at the Leibniz Institute for Science and Mathematics Education, [IPN](http://www.ipn.uni-kiel.de/), in Kiel, Germany. I am part of the [Department of Educational Measurement](https://www.ipn.uni-kiel.de/en/the-ipn/departments/research-methodology). My research interests are *vocational interests*, *person-environment fit*, and *personality profiles*. 
 
-Auf dieser Website schreibe ich in unregelmäßigen Abständen zu folgende Themen:
+Since the earliest days of my studies, I am fascinated by and strongly interested in quantitative research methods and data analysis in psychology and the social sciences in general. Due to the inherent sophistication of these methods, I spent many hours trying to understand how to get from raw data to the results of, for example, *t*-tests, analysis of variance (ANOVA), regressions, and structural equation models (SEMs) and on how to interpret these results correctly. 
 
- - Probleme und Lösungen bei der deskriptiven und inferenzstatistischen Auswertung von (Forschungs)daten, inbesondere mit [R](http://www.cran.org/)
- - Tutorials und hilfreiche Funktionen für die Datenanalyse mit [R](http://www.cran.org/)
- - Gedanken über die politische und gesellschaftliche Weltlage
- - Musik
+On this website, I occassionally write about:
  
+ - Tutorials for common data analytic problems
+ - Problems and solutions of non-standard data analysis tasks, especially with [R](https://cran.r-project.org)
+ - Functions that make you life easier
+ 
+Everything expressed on this website reflects my personal opinions, ideas, and thoughts. Tutorials and code examples are created to the best of my knowledge. Although I check everything very carefully, I cannot guarantee for the unquestionable correctness of my examples. Naturally, I do not claim that my way of solving data analytical problems is:
+
+- the __only__ way to solve a problem
+- the __fastest__ way to solve a problem
+- the __best__ way to solve a problem
+- the __most elegant__ way to solve a problem
+
+Mistakes are human and admitting mistakes is, in my humble opinion, a sign of strength, not of weakness. So if you ever come across something that is just plain wrong, or if you want to share your own ways of solving a particualr problem, feel free to contact me via the social media channels presented below. 

@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Posts - </title>
-    <meta property="og:title" content="Posts - ">
+    <title>Tutorials - </title>
+    <meta property="og:title" content="Tutorials - ">
     
     <meta name="twitter:card" content="summary">
 
@@ -15,6 +15,11 @@
 
     
       
+      <meta property="description" content="Hier sind Tutorials!
+">
+      <meta property="og:description" content="Hier sind Tutorials!
+">
+      
     
 
     
@@ -22,8 +27,6 @@
 
     
 
-    
-    <link href="/post/index.xml" rel="alternate" type="application/rss+xml" title="" />
     
     
 
@@ -34,7 +37,7 @@
   </head>
 
   
-  <body class="post">
+  <body class="tutorials">
     <header class="masthead">
       <h1><a href="/"></a></h1>
 
@@ -54,7 +57,7 @@
   
   <li><a href="/about/">About</a></li>
   
-  <li><a href="/tutorials/">Tutorials</a></li>
+  <li class="active"><a href="/tutorials/">Tutorials</a></li>
   
   <li><a href="/categories/">Categories</a></li>
   
@@ -69,7 +72,7 @@
     <article class="main">
       <header class="title">
       
-<h1>Posts</h1>
+<h1>Tutorials</h1>
 
 <h3>
 </h3>
@@ -80,24 +83,50 @@
 
 
 
+<p>Hier sind Tutorials!</p>
 
-<ul>
-  
-  <li>
-    <span class="date">2018/09/11</span>
-    <a href="/post/2018/09/11/for-starters/">For starters...</a>
-  </li>
-  
-</ul>
 
   <footer>
   
-<nav class="post-nav">
-  <span class="nav-prev"></span>
-  <span class="nav-next"></span>
-</nav>
 
 
+<section class="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+    this.page.url = "https:\/\/jme.netlify.com" + location.pathname;
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var disqus_js = '//jmetzel.disqus.com/embed.js';
+    var d = document, s = d.createElement('script');
+    s.src = disqus_js; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    var b = false, l = function() {
+      if (b) return;
+      (d.head || d.body).appendChild(s); b = true;
+    }
+    
+    if (location.hash.match(/^#comment/)) return(l());
+    var t = d.getElementById('disqus_thread');
+    var c = function() {
+      if (b) return;
+      var rect = t.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom >= 0) l();
+    };
+    window.addEventListener('load', c);
+    d.addEventListener('scroll', c);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
 
 
 <script src="//yihui.name/js/math-code.js"></script>

@@ -1,9 +1,9 @@
 baseurl = "/"
 languageCode = "de"
-title = "test"
+title = ""
 theme = "hugo-ivy"
 googleAnalytics = ""
-disqusShortname = ""
+disqusShortname = "jmetzel"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
@@ -21,18 +21,23 @@ footnotereturnlinkcontents = "↩"
     url = "/about/"
     weight = 2
 [[menu.main]]
+    name = "Tutorials"
+    url = "/tutorials/"
+    weight = 3
+[[menu.main]]
     name = "Categories"
     url = "/categories/"
-    weight = 3
+    weight = 4
 [[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 4
+    weight = 5
 
 [params]
-    description = "Thoughts on Stats, Psychology and Society"
-    footer = "&copy; [Julian M. Etzel](https://www.ipn.uni-kiel.de) 2018 | [Github](https://github.com/jmetzel) | [Twitter](https://twitter.com/julianetzel)"
-
+    description = "Thoughts on Data Analysis, Psychology and Society"
+    footer = "&copy; [Julian M. Etzel](jme.netlify.com) 2018  <br> [Research Gate](https://researchgate.net) | [Twitter](https://twitter.com/julianetzel) | [GitHub](https://github.com/jmetzel)"
+    disqusURL = "https://jme.netlify.com" 
+    
   highlightjsVersion = "9.12.0"
   highlightjsCDN = "//cdn.bootcss.com"
   highlightjsLang = ["r", "yaml", "tex"]

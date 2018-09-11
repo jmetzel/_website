@@ -1,25 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>Home on </title>
     <link>/</link>
-    <description>Recent content on </description>
+    <description>Recent content in Home on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Thu, 23 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About JME</title>
+      <title>For starters...</title>
+      <link>/post/2018/09/11/for-starters/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/09/11/for-starters/</guid>
+      <description>Every blog needs a first entry. This is mine.
+From time to time, I will share links to great essays that have influenced me in one way or another. I will begin with William Davies&amp;rsquo; spot on analysis of the standing of statistics in today&amp;rsquo;s society, published 2017 in the .
+Although the essay has been written in 2017, I imagine that &amp;ndash; unfortunately &amp;ndash; it will be an important source for years to come.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
       <link>/about/</link>
-      <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Mein Name ist Julian Etzel, ich bin Diplom-Psychologe und arbeite als wissenschaftlicher Mitarbeiter am Leibniz Institut für die Pädagogik der Naturwissesnschaften und Mathematik IPN in der Abteilung Pädagogisch-Psychologische Methodenlehre. Meine Forschungsinteressen umfassen berufliche Interessen, Person-Umwelt Kongruenz und Persönlichkeitsprofile.
-Auf dieser Website schreibe ich in unregelmäßigen Abständen zu folgende Themen:
- Probleme und Lösungen bei der deskriptiven und inferenzstatistischen Auswertung von (Forschungs)daten, inbesondere mit R Tutorials und hilfreiche Funktionen für die Datenanalyse mit R Gedanken über die politische und gesellschaftliche Weltlage Musik  </description>
+      <description>My name ist Julian M. Etzel, I am a psychologist and researcher at the Leibniz Institute for Science and Mathematics Education, IPN, in Kiel, Germany. I am part of the Department of Educational Measurement. My research interests are vocational interests, person-environment fit, and personality profiles.
+Since the earliest days of my studies, I am fascinated by and strongly interested in quantitative research methods and data analysis in psychology and the social sciences in general.</description>
+    </item>
+    
+    <item>
+      <title>Tutorials</title>
+      <link>/tutorials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorials/</guid>
+      <description>Hier sind Tutorials!</description>
     </item>
     
   </channel>
